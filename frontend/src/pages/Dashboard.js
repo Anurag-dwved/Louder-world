@@ -20,7 +20,7 @@ const Dashboard = () => {
 
   useEffect(() => {
     checkAuth();
-  }, []);
+  }, [checkAuth]);
 
   useEffect(() => {
     if (user) {

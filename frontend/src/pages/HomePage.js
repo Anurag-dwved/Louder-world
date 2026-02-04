@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import { format } from 'date-fns';
 import './HomePage.css';
 import EventCard from '../components/EventCard';
 import TicketModal from '../components/TicketModal';
